@@ -21,7 +21,7 @@ Resources:
             Path: /hello
             Method: get
     Metadata:
-      DockerTag: dotnet6-v1
+      DockerTag: dotnet7
       DockerContext: ./src/HelloWorld
       Dockerfile: Dockerfile
       DockerBuildArgs:
