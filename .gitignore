@@ -1,0 +1,81 @@
+# See http://help.github.com/ignore-files/ for more about ignoring files.
+
+# compiled output
+/dist
+/tmp
+/out-tsc
+
+# dependencies
+node_modules
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+.idea/
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# IDE - Visual Studio
+.vs/
+*.sln.user
+*.csproj.user
+*.DotSettings.user
+
+# .NET Core build folders
+bin/
+obj/
+
+# Nunit
+*.VisualState.xml
+TestResult.xml
+
+# DeepCode (Snyk)
+.dccache
+
+# misc
+/.sass-cache
+/connect.lock
+coverage
+/libpeerconnection.log
+npm-debug.log
+yarn-error.log
+testem.log
+/typings
+.yarn/cache/
+.yarn/install-state.gz
+cobertura-coverage.xml
+.yarnrc.yml
+
+# System Files
+.DS_Store
+Thumbs.db
+
+apps/*/bin
+apps/*/obj
+libs/*/bin
+libs/*/obj
+apps/**/.suo
+
+#cdk
+cdk.out
+.cdk.staging
+
+.env.local
+
+#yarn
+install-state.gz
+apps/**/coverage
+
+#apps/monitoring
+!apps/infrastructure/monitoring/lib/canary/nodejs/node_modules
+!apps/infrastructure/monitoring/lib/canary/nodejs/node_modules/*.js
